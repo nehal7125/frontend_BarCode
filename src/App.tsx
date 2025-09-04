@@ -1,13 +1,13 @@
 
 import './App.css'
-import BarcodeScanner from './component/BarcodeScanner'
+import BarcodeScannerWithAPI from './component/BarcodeScannerWithAPI'
 
 function App() {
 
   return (
     <>
       <div className='App'>
-        <BarcodeScanner/>
+        <BarcodeScannerWithAPI/>
       </div>
        
     </>
